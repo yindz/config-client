@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: my-biz-app
+  profiles:
+    active: prod
+  cloud:
+    nacos:
+      config:
+        server-addr: 10.60.162.56:8848
+        file-extension: yml
+
+server:
+  port: 12011
